@@ -29,24 +29,24 @@ const Menubar = () => {
     
    
     <nav>
-    <LinkContainer to="/"><a className="logo">Tronix<span>365</span></a></LinkContainer>
+    <LinkContainer to="/"><a href="" className="logo">Tronix<span>365</span></a></LinkContainer>
     <button className="mobile-nav-toggle" aria-controls='selectNav' aria-expanded="false"  onClick={setnav}>
         <span></span>
     </button>
  
     <ul className="lg-nav">
-    <li><LinkContainer to="/"><a className="active">HOME</a></LinkContainer></li>
-    <li><LinkContainer to="/blogs"><a >BLOGS</a></LinkContainer></li>
-    <li><LinkContainer to="/about"><a >ABOUT US</a></LinkContainer></li>
-    <li><LinkContainer to="/contact"><a >CONTACT US</a></LinkContainer></li>
+    <li><LinkContainer to="/"><a href="" className="active">HOME</a></LinkContainer></li>
+    <li><LinkContainer to="/blogs"><a href="" >BLOGS</a></LinkContainer></li>
+    <li><LinkContainer to="/about"><a href="" >ABOUT US</a></LinkContainer></li>
+    <li><LinkContainer to="/contact"><a  href="">CONTACT US</a></LinkContainer></li>
     </ul>
 
     
     <ul id="selectNav" className="mobile-nav" data-visible="false">
-    <LinkContainer to="/"><li className="active"><a onClick={setnav}>HOME</a></li></LinkContainer>
-    <LinkContainer to="/blogs"><li><a onClick={setnav}>BLOGS</a></li></LinkContainer>
-    <li><LinkContainer to="/about"><a >ABOUT</a></LinkContainer></li>
-    <LinkContainer to="/contact"><li><a onClick={setnav}>CONTACT</a></li></LinkContainer>
+    <LinkContainer to="/"><li className="active"><a onClick={setnav} href="">HOME</a></li></LinkContainer>
+    <LinkContainer to="/blogs"><li><a onClick={setnav} href="">BLOGS</a></li></LinkContainer>
+    <li><LinkContainer to="/about"><a href="">ABOUT</a></LinkContainer></li>
+    <LinkContainer to="/contact"><li><a onClick={setnav} href="">CONTACT</a></li></LinkContainer>
     </ul>
 </nav>
 
