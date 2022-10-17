@@ -9,7 +9,7 @@ const Footer = () => {
         <Container fluid>
             <Row>
             <Col md={4}>
-            <LinkContainer to="/"><a className="logo">Tronix<span>365</span></a></LinkContainer>
+            <LinkContainer to="/" className="logo">Tronix<span>365</span></LinkContainer>
             <p>We are the huslter for progress of youth. Pune based edtech startup with young enterprenureship and energetic attitude towards youth mindset</p>
             </Col>
             </Row>
